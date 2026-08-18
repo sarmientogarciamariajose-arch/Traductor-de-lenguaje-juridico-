@@ -2,9 +2,9 @@
 
 **Pontificia Universidad Javeriana · 2026-II · Docente: Pedro Ardila**
 
-> **Estudiante:** [escribe aquí tu nombre completo]
-> **Nombre del proyecto:** [escribe aquí el nombre de tu herramienta]
-> **Fecha de inicio:** [AAAA-MM-DD]
+> **Estudiante:** Maria Jose Sarmiento Garcia.
+> **Nombre del proyecto:** Traductor de lenguaje Jurídico 
+> **Fecha de inicio:** 2026/08/18.
 
 ---
 
