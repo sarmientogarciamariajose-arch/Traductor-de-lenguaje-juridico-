@@ -27,18 +27,19 @@ La van a usar personas que necesiten entender textos legales y no tengan conocim
 ### 1.3 Qué hace y qué NO hace (alcance)
 | ✅ Sí hace | ❌ No hace |
 | --- | --- |
-| [Traduce términos jurídicos a un lenguaje sencillo. 1] | [Traduce términos jurídicos a un lenguaje sencillo. 1] |
+| [Traduce términos jurídicos a un lenguaje sencillo. 1] | [No interpreta casos legales específicos ni determina quién tiene la razón en un proceso. 1] |
 | [Facilita la comprensión de textos legales. 2] | [No toma decisones legales ni da asesoria] |
 
 *Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
 
 ### 1.4 Marco jurídico y fuentes
 ¿Qué normas alimentan tu herramienta? Lista tu corpus normativo (leyes, decretos, sentencias — debe ser **pequeño y público**):
-- [ ] Norma/sentencia 1: [nombre + enlace]
-- [ ] Norma/sentencia 2: [nombre + enlace]
+- [ ] Constitución Política de Colombia de 1991 + [http://www.secretariasenado.gov.co/]
+- [ ] Fuente de lenguaje: Diccionario Panhispánico del Español Jurídico (DPEJ) +[https://dpej.rae.es/]
 
 ### 1.5 Nombre y lema
-Un nombre corto para tu herramienta y una frase que explique qué hace (la usarás en la demo del día de presentaciones).
+JurisTraductor
+Entender tus derechos también es un derecho.
 
 ---
 
