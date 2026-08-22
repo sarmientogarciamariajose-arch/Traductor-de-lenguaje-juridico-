@@ -27,8 +27,8 @@ La van a usar personas que necesiten entender textos legales y no tengan conocim
 ### 1.3 Qué hace y qué NO hace (alcance)
 | ✅ Sí hace | ❌ No hace |
 | --- | --- |
-| [funcionalidad 1] | [fuera de alcance 1] |
-| [funcionalidad 2] | [fuera de alcance 2] |
+| [Traduce términos jurídicos a un lenguaje sencillo. 1] | [Traduce términos jurídicos a un lenguaje sencillo. 1] |
+| [Facilita la comprensión de textos legales. 2] | [No toma decisones legales ni da asesoria] |
 
 *Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
 
