@@ -21,11 +21,9 @@ Bienvenido/a a tu repositorio de proyecto. **Este archivo es tu tablero de mando
 > Completa cada sección con 3–10 frases. Sé concreto/a: esta descripción es la que tu IA usará como contexto y la que el docente usará para realimentarte.
 
 ### 1.1 El problema jurídico
-¿Qué problema **real del derecho colombiano** resuelve tu herramienta? ¿Quién lo sufre hoy y cómo lo resuelve sin tu herramienta?
-
+Resuelve el problema que tienen muchas personas para comprender los textos legales colombianos, debido al uso de un lenguaje jurídico técnico y complejo. Este problema lo sufren principalmente los ciudadanos que no tienen conocimientos en Derecho.
 ### 1.2 Usuarios
-¿Quién va a usarla? Describe a tu usuario ideal en una frase (ej. *"un arrendatario bogotano que le subieron el canon de arrendamiento más del límite legal"*). Recuerda que al final necesitas **al menos un usuario real** que la pruebe.
-
+La van a usar personas que necesiten entender textos legales y no tengan conocimientos especializados en Derecho, como ciudadanos, estudiantes y personas que deban leer contratos, leyes o documentos jurídicos.
 ### 1.3 Qué hace y qué NO hace (alcance)
 | ✅ Sí hace | ❌ No hace |
 | --- | --- |
