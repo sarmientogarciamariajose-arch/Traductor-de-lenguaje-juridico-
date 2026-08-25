@@ -57,8 +57,8 @@ Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 ### Bitácora de avance semanal
 | Semana | Qué hice | Enlace/captura | Dudas para la clase |
 | --- | --- | --- | --- |
-| 1 | | | |
-| 2 | | | |
+| 1 | Redactar el objetivo y la descripción de la aplicación | |no aplica |
+| 2 | | Se completaron los ítems faltantes para el readme| |no aplica 
 | 3 | | | |
 | 4 | | | |
 | 5 | | | |
