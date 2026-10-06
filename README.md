@@ -58,10 +58,10 @@ Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 | Semana | Qué hice | Enlace/captura | Dudas para la clase |
 | --- | --- | --- | --- |
 | 1 | Redactar el objetivo y la descripción de la aplicación | |no aplica |
-| 2 | | Se completaron los ítems faltantes para el readme| |no aplica 
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
+| 2 | Complete información| Se completaron los ítems faltantes para el readme| |no aplica 
+| 3 | Busque las fuentes para la IA| | No aplica  |
+| 4 |Usar vercel para poner GitHub | | |
+| 5 |hacer pruebas ya dentro de la app y del link para probar cómo funciona  | | |
 
 ---
 
