@@ -2,10 +2,14 @@ import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json()
-    const text = body.text || body.prompt || body.query || body.input || body.message
+    const rawBody = await req.json().catch(() => ({}))
+    
+    // Captura cualquier nombre de campo enviado desde la pantalla o como string directo
+    const text = typeof rawBody === 'string' 
+      ? rawBody 
+      : (rawBody.text || rawBody.prompt || rawBody.query || rawBody.input || rawBody.message || rawBody.content || Object.values(rawBody)[0])
 
-    if (!text) {
+    if (!text || String(text).trim() === '') {
       return NextResponse.json({ error: "No se proporcionó ningún texto." }, { status: 400 })
     }
 
@@ -48,7 +52,7 @@ export async function POST(req: Request) {
     }
 
     const translation = data.choices?.[0]?.message?.content || "No se pudo generar la traducción."
-    return NextResponse.json({ result: translation, translation: translation })
+    return NextResponse.json({ result: translation, translation: translation, text: translation })
 
   } catch (error: any) {
     return NextResponse.json({ error: error.message || "Error interno del servidor" }, { status: 500 })
