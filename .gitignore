@@ -1,0 +1,15 @@
+# Entorno y credenciales
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

@@ -57,8 +57,8 @@ Entender tus derechos también es un derecho.
 
 Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 
-- [ ] **M0 — Descripción y plan** *(con Sesión 1)*: Partes 1 y 2 de este README completas.
-- [ ] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: redactaste las instrucciones (prompt de sistema) de tu asistente y funcionan en una herramienta gratuita de chat.
+- [x] **M0 — Descripción y plan** *(con Sesión 1)*: Partes 1 y 2 de este README completas.
+- [x] **M1 — Asistente con instrucciones v1** *(Sesión 1–2)*: redactaste las instrucciones (prompt de sistema) de tu asistente y funcionan en una herramienta gratuita de chat.
 - [ ] **M2 — Casos de prueba documentados** *(Sesión 2)*: tienes al menos 5 casos de prueba (donde antes fallaba) con resultados guardados en `docs/casos-de-prueba.md`.
 - [ ] **M3 — Corpus conectado (RAG)** *(Sesión 3)*: tu asistente **cita la fuente** normativa que usa y no inventa. Corpus cargado en `corpus/`.
 - [ ] **M4 — Interfaz web desplegada** *(Sesión 4)*: tu herramienta tiene **URL pública** (ver Parte 4) y tu primer usuario real la probó con evidencia.
@@ -74,6 +74,7 @@ Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 | 4 |Usar vercel para poner GitHub | <img width="1016" height="752" alt="image" src="https://github.com/user-attachments/assets/f263bbb0-cb4d-489f-84f6-f744f4da2ff7" />
 | |
 | 5 |hacer pruebas ya dentro de la app y del link para probar cómo funciona  | https://juristraductor.v0.build/| |
+| 6 | Orquestación con LangChain y OpenRouter (modelo free activo `nemotron-3-super-120b`). Redacción del prompt de sistema v1 con salvaguardas y pruebas de control. | [prompt-sistema-v1.md](prompt-sistema-v1.md) | Ninguna |
 
 ---
 

@@ -1,0 +1,30 @@
+{
+  "name": "juristraductor",
+  "version": "1.0.0",
+  "description": "**Pontificia Universidad Javeriana · 2026-II · Docente: Pedro Ardila**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test-asistente": "node test-asistente.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/core": "^1.2.17",
+    "@langchain/openai": "^1.6.2",
+    "dotenv": "^18.0.7",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}
