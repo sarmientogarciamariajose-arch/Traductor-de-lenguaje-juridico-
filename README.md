@@ -45,6 +45,7 @@ La van a usar personas que necesiten entender textos legales y no tengan conocim
 - [ ] https://www.google.com/search?q=https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php%3Fi%3D99335
 - [ ] https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=48425
 - [ ] https://www.corteconstitucional.gov.co/relatoria/
+- [ ] https://www.conceptosjuridicos.com/co/codigo-civil/
 
 ### 1.5 Nombre y lema
 JurisTraductor
