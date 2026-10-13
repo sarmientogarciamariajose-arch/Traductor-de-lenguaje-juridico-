@@ -61,7 +61,7 @@ Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 | 2 | Complete información| Se completaron los ítems faltantes para el readme| |no aplica 
 | 3 | Busque las fuentes para la IA| | No aplica  |
 | 4 |Usar vercel para poner GitHub | | |
-| 5 |hacer pruebas ya dentro de la app y del link para probar cómo funciona  | | |
+| 5 |hacer pruebas ya dentro de la app y del link para probar cómo funciona  | https://juristraductor.v0.build/| |
 
 ---
 
