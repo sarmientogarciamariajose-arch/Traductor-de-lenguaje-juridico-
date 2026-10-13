@@ -59,7 +59,8 @@ Marca cada hito cuando lo termines. Los hitos siguen las sesiones del curso.
 | --- | --- | --- | --- |
 | 1 | Redactar el objetivo y la descripción de la aplicación | |no aplica |
 | 2 | Complete información| Se completaron los ítems faltantes para el readme| |no aplica 
-| 3 | Busque las fuentes para la IA| | No aplica  |
+| 3 | Busque las fuentes para la IA| <img width="1450" height="821" alt="image" src="https://github.com/user-attachments/assets/906273c8-c480-4044-8008-e8df5f1a601e" />
+| No aplica  |
 | 4 |Usar vercel para poner GitHub | <img width="1016" height="752" alt="image" src="https://github.com/user-attachments/assets/f263bbb0-cb4d-489f-84f6-f744f4da2ff7" />
 | |
 | 5 |hacer pruebas ya dentro de la app y del link para probar cómo funciona  | https://juristraductor.v0.build/| |
