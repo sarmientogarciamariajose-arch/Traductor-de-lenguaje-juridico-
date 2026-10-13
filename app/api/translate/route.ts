@@ -9,14 +9,15 @@ export async function POST(req: Request) {
       if (typeof body === 'string') {
         text = body
       } else if (body && typeof body === 'object') {
+        // Intenta extraer el texto de cualquier propiedad común o toma el primer valor del objeto
         text = body.text || body.prompt || body.query || body.input || body.message || body.term || body.concept || Object.values(body)[0]
       }
     } catch {
       text = await req.text()
     }
 
-    if (!text || String(text).trim() === '') {
-      return NextResponse.json({ error: "No se proporcionó ningún texto." }, { status: 400 })
+    if (!text || String(text).trim() === '' || String(text) === '[object Object]') {
+      return NextResponse.json({ error: "No se proporcionó ningún texto válido." }, { status: 400 })
     }
 
     const apiKey = process.env.OPENROUTER_API_KEY
@@ -59,6 +60,7 @@ export async function POST(req: Request) {
 
     const translation = data.choices?.[0]?.message?.content || "No se pudo generar la traducción."
     
+    // Retorna la traducción bajo múltiples nombres de clave para asegurar compatibilidad con el frontend
     return NextResponse.json({ 
       result: translation, 
       translation: translation, 
