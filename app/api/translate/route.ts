@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export async function POST(req: Request) {
   try {
     const body = await req.json()
-    const text = body.text || body.prompt || body.query || body.input
+    const text = body.text || body.prompt || body.query || body.input || body.message
 
     if (!text) {
       return NextResponse.json({ error: "No se proporcionó ningún texto." }, { status: 400 })
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         "X-Title": "JurisTraductor"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3.2-11b-vision-instruct:free",
+        model: "meta-llama/llama-3.3-70b-instruct:free",
         messages: [
           {
             role: "system",
@@ -32,7 +32,7 @@ export async function POST(req: Request) {
           },
           {
             role: "user",
-            content: text
+            content: String(text)
           }
         ]
       })
@@ -43,12 +43,12 @@ export async function POST(req: Request) {
     if (!response.ok || data.error) {
       return NextResponse.json(
         { error: data?.error?.message || "Error al comunicarse con OpenRouter." },
-        { status: response.status || 500 }
+        { status: response.status || 400 }
       )
     }
 
     const translation = data.choices?.[0]?.message?.content || "No se pudo generar la traducción."
-    return NextResponse.json({ result: translation })
+    return NextResponse.json({ result: translation, translation: translation })
 
   } catch (error: any) {
     return NextResponse.json({ error: error.message || "Error interno del servidor" }, { status: 500 })
