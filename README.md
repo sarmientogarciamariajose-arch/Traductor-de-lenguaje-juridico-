@@ -30,12 +30,21 @@ La van a usar personas que necesiten entender textos legales y no tengan conocim
 | [Traduce términos jurídicos a un lenguaje sencillo. 1] | [No interpreta casos legales específicos ni determina quién tiene la razón en un proceso. 1] |
 | [Facilita la comprensión de textos legales. 2] | [No toma decisones legales ni da asesoria] |
 
+
 *Consejo de abogado: un alcance pequeño y perfecto vale más que uno grande y roto.*
 
 ### 1.4 Marco jurídico y fuentes
 ¿Qué normas alimentan tu herramienta? Lista tu corpus normativo (leyes, decretos, sentencias — debe ser **pequeño y público**):
 - [ ] Constitución Política de Colombia de 1991 + [http://www.secretariasenado.gov.co/]
+- [ ] https://www.google.com/search?q=https://www.funcionpublica.gov.co/eva/es/lenguaje-claro
+- [ ] https://www.google.com/search?q=https://www.dnp.gov.co/programas/gestion-y-desempeno-publico/gestion-publica/Paginas/lenguaje-claro.aspx
 - [ ] Fuente de lenguaje: Diccionario Panhispánico del Español Jurídico (DPEJ) +[https://dpej.rae.es/]
+- [ ] https://www.ramajudicial.gov.co/
+- [ ] https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=56882
+- [ ] https://www.google.com/search?q=https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php%3Fi%3D136706
+- [ ] https://www.google.com/search?q=https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php%3Fi%3D99335
+- [ ] https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=48425
+- [ ] https://www.corteconstitucional.gov.co/relatoria/
 
 ### 1.5 Nombre y lema
 JurisTraductor
