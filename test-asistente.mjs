@@ -22,7 +22,7 @@ const primaryModel = new ChatOpenAI({
       "X-Title": "JurisTraductor"
     }
   },
-  modelName: "nvidia/nemotron-3-super-120b-a12b:free",
+  modelName: "nvidia/nemotron-3-ultra-550b-a55b:free",
   temperature: 0.2
 })
 
