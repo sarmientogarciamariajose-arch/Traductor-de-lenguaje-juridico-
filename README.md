@@ -125,7 +125,7 @@ Si necesitas algo que Vercel no ofrece (ej. procesos de fondo, bases de datos pe
 - [ ] URL pública funciona en el navegador de otra persona (pídele a alguien que la abra)
 - [ ] La advertencia de la Parte 7 es **visible** en la interfaz
 - [ ] No hay API keys ni secretos en el código (verifica con una búsqueda de `sk-` en el repo)
-- [ ] Anota la URL aquí: **`[tu-url-publica]`**
+- [ ] Anota la URL aquí: **`https://juristraductor-2.vercel.app/`**
 
 > El dominio propio (.com, .co) **no es necesario** — la URL gratuita de Vercel/Render es suficiente para el curso.
 
